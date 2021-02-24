@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Verdana, Arial, sans-serif;
+  font-size: 14px;
+  /*background: #555;*/
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+  vertical-align: bottom;
+  display: block;
+}
+
+.header_img{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.footer_img{
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.footer_img:last-of-type{
+  max-width: 200px;
+  margin-top: 20px;
+}
+
+.container{
+  max-width: 960px;
+  margin:0 auto;
+  padding:25px 5%;
+}
+
+a {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 959px)
+{
+  div.table{
+    overflow: scroll;
+}
+}
+
+/*
+@media screen and (min-width: 960px){
+  div.table{
+    overflow: hidden;
+}
+}
+*/
+
+table {
+  margin: 15px auto 5px 0;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+th {
+  background: #eee;
+  padding: 7px;
+  text-align: center;
+  white-space: nowrap;
+}
+td {
+  padding: 7px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.table table caption{
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.senseki table th,
+.senseki table td{
+  padding: 7px 20px;
+}
+
+.senseki table td{
+  text-align: right;
+}
+
+.senseki table {
+  font-size: 18px;
+  margin: 0 auto 35px auto;
+}
+
+form {
+    margin: 0;
+}
+
+dt{
+  float: left;
+}
+
+dd{
+  margin-left: 100px;
+}
+
+p{
+  margin:5px 0;
+}
+
+.warning{
+  color: red;
+  margin-bottom: 10px;
+}
+
+
+input.typeA{
+  margin-top:15px;
+  margin-bottom: 10px;
+}
+
+.select option{
+  text-align: center;
+}
+
+.buttonNormal{
+  text-align: center;
+  padding: 10px 5px;
+  margin: 15px auto 25px auto;
+  text-decoration: none;
+  background: red;
+  width: 150px;
+  color: #fff;
+  display: block;
+  border-radius: 1000px;
+  box-shadow: 3px 3px 1px #ddd;
+
+}
+
+
+/*　チャート用　CSS*/
+
+#chart {
+  max-width: 650px;
+  margin: 35px auto;
+}
+
